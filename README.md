@@ -1,8 +1,8 @@
 # Media Info Lib
 Place this app in **nextcloud/apps/**
+Only test under nextcloud v18.0.x
 
 # Source from https://github.com/mhor/php-mediainfo
-for Nextcloud 18.0.x
 
 ## Building the app
 
