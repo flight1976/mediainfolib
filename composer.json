@@ -1,0 +1,15 @@
+{
+    "name": "Media Info Lib",
+    "description": "packaging from mhor&#39;s php-mediainfo",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "flight1976"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

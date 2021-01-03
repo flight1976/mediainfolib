@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>mediainfolib</id>
+    <name>Media Info Lib</name>
+    <summary>packaging from mhor&#39;s php-mediainfo</summary>
+    <description><![CDATA[packaging from mhor&#39;s php-mediainfo]]></description>
+    <version>0.0.2</version>
+    <licence>agpl</licence>
+    <author mail="flight.man@gmail.com" >flight1976</author>
+    <namespace>MediaInfoLib</namespace>
+    <category>multimedia</category>
+    <bugs>https://github.com/</bugs>
+    <dependencies>
+        <nextcloud min-version="18" max-version="18"/>
+    </dependencies>
+</info>
