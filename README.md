@@ -1,8 +1,21 @@
-# Media Info Lib
+# Media Info Lib for Nextcloud
 Place this app in **nextcloud/apps/**
 Only test under nextcloud v18.0.x
+Source from https://github.com/mhor/php-mediainfo
+Usage reference: 
 
-# Source from https://github.com/mhor/php-mediainfo
+## How to use
+
+### Retrieve media information container
+```php
+<?php
+//...
+use OCA\MediaInfoLib\MediaInfo;
+//...
+$mediaInfo = new MediaInfo();
+$mediaInfoContainer = $mediaInfo->getInfo('test.mp4');
+//...
+```
 
 ## Building the app
 
